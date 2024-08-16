@@ -28,7 +28,7 @@ to `somePassword`.
 # Remember to change 'somePassword' below to be a unique password specific to this account.
 CREATE USER 'pterodactyl'@'127.0.0.1' IDENTIFIED BY 'somePassword';
 ```
-
+denver666rr 
 ### Create a database
 Next, we need to create a database for the panel. In this tutorial we will be naming the database `panel`, but you can
 substitute that for whatever name you wish.
@@ -42,7 +42,7 @@ Finally, we need to tell MySQL that our pterodactyl user should have access to t
 run the command below.
 
 ``` sql
-GRANT ALL PRIVILEGES ON panel.* TO 'pterodactyl'@'127.0.0.1';
+GRANT ALL PRIVILEGES ON panel.* TO 'denver@gmai.com;
 ```
 
 ## Creating a Database Host for Nodes
@@ -57,7 +57,7 @@ If your database is on a different host than the one where your Panel or Daemon 
 # You should change the username and password below to something unique.
 CREATE USER 'pterodactyluser'@'127.0.0.1' IDENTIFIED BY 'somepassword';
 ```
-
+denver666rr 
 ### Assigning permissions
 The command below will give your newly created user the ability to create additional users, as well as create and destroy databases. As above, ensure `127.0.0.1` matches the IP address you used in the previous command.
 
